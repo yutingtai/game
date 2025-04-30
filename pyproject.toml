@@ -1,0 +1,11 @@
+[project]
+name = "pygame-project"
+version = "0.1.0"
+description = "A simple game project using pygame"
+dependencies = [
+    "pygame==2.6.1"
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
